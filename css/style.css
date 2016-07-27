@@ -1,0 +1,162 @@
+/* Colors and Fonts */
+
+body {
+  background: #F9F8F4;
+  font-family: 'Anonymous Pro';
+  font-weight: 400;
+  color:  #372937;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color:  #FDA72D;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6em;
+}
+
+img {
+  width: 200px;
+}
+
+a {
+  color: #372937;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#fda72d;
+}
+
+table tr > td {
+  /*padding-bottom: 20px;*/
+  vertical-align: middle;
+  padding-bottom
+}
+
+td:nth-child(2) {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h4.no-margin-top {
+  margin-top: 0 !important;
+}
+
+.card-white {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(253, 167, 45, 0.4);
+}
+
+.container {
+  width: 660px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.purple {
+  background: rgba(55, 41, 55, 1.00);
+}
+
+.text-white {
+  color: white;
+}
+
+.text-green {
+  color: rgba(133, 250, 117, 1.00);
+}
+
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.img-circle {
+  border-radius: 10px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding-0-20 {
+  padding: 0px 20px;
+}
+
+.btn-purple {
+    background: RGBA(55, 41, 55, 1.00);
+    color: RGBA(253, 167, 45, 1.00);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.btn-purple:hover {
+  color: white;
+}
+
+#logo {
+  width: 100px;
+}
+
+#profile-picture-rounded {
+  border-radius: 50%;
+  width:200px;
+}
+
+.margin-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.marche {
+  background-image: url(/images/marche.jpg);
+  background-position: center; /* center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#schema {
+  width: 500px;
+}
+
+.background-white {
+  background-color: white;
+  padding: 40px;
+}
+
+#no-margin-bottom {
+  margin-bottom: 0px;
+}
